@@ -7,8 +7,10 @@ export default function App() {
   return (
   <main className="container">
   <Info />
+  <div className="body-container">
   <About />
   <Interests />
+  </div>
   <Footer />
   </main>
   )

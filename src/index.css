@@ -1,10 +1,11 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  font-family: "Inter", sans-serif;
 }
 
 body {
-  background-color: #23252C;
-  margin: 0;
+  background-color: #23252c;
   color: white;
 }
 
@@ -22,7 +23,7 @@ img {
 }
 
 .container {
-  background-color: #1A1B21;
+  background-color: #1a1b21;
   width: 20%;
   height: 90%;
   border-radius: 10px;
@@ -30,14 +31,65 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
 }
 
 .button-container {
   display: flex;
   gap: 17px;
+  width: 100%;
+  height: 4%;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 .button-container button {
-  width: 130%;
+  width: 35%;
+  height: 100%;
+  border: none;
+  border-radius: 3px;
+  background-color: #5093E2;
+  color: white;
+  font-weight: 500;
+}
+
+.button-container button:first-child {
+  background-color: white;
+  color: black;
+  border: 1px solid #D1D5DB;
+}
+
+h1 {
+  margin-top: 21px;
+  font-size: 1.5rem;
+}
+
+h2 {
+  color: #f3bf99;
+  margin-top: 6px;
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+
+.body-container {
+  margin-top: 25px;
+  margin-bottom: 50px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+p {
+  font-size: 0.7rem;
+  font-weight: 200;
+}
+
+.footer-container {
+  background-color: #161619;
+  height: 100%;
+  width: 100%;
 }
